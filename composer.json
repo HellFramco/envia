@@ -1,0 +1,21 @@
+{
+    "name": "hellframco/envia",
+    "autoload": {
+        "psr-4": {
+            "Hellframco\\Envia\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Manuel",
+            "email": "manuelbarrios7891238520@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "^7.4",
+        "phpunit/phpunit": "^9.5",
+        "vlucas/phpdotenv": "^5.4",
+        "saulmoralespa/envia-colvanes-api-php": "^1.0"
+    }
+}
